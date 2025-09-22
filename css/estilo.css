@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Lobster&family=Roboto:ital,wght@0,100..900;1,100..900&family=Zalando+Sans+SemiExpanded:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    }
+
+    body{
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+    }
+
+    .navbar{
+        display: flex;
+        flex-flow: row wrap;
+        height: 100px;
+        background: white;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logo{
+        flex: 20%;
+        margin-left: 10%;
+        /* border: 1px solid red; */
+        text-align: left;
+    }
+
+    .logo h1{
+        font-family: "Lobster", sans-serif;
+        color: #180F4A;
+       font-size: 34px;
+    }
+ 
+
+
+
+    
+
+    .menu{
+        flex: 70%; 
+        /* border: 1px solid green; */
+        text-align: right;
+        pad: 20px;
+
+    }
+
+    .menu a{
+        color: #180F4A;
+        text-decoration: none;
+        font-size: 20px;
+        padding: 20px 16px;
+
+
+
+    }
+
+    .menu a:hover{
+        color: #ff2978;
+        border-top: 4px solid #180F4A;
+    }
+    
+    #botão{
+        background:#180F4A ;
+        padding: 10px 25px;
+        color: white;
+        border-radius: 5px;
+        margin-right: 10%;
+        margin-left: 5%;
+    }
+
+    #botão:hover{
+        border: none;
+        background: #ff2978;
+
+    }
+
+    .header{
+        display: flex;
+        flex-flow: row wrap;
+        /* background: grey; */
+        justify-content: center;
+        align-items: center;
+    }
+
+    .headline{
+        margin-left: 10%;
+        flex: 40%;
+        /* border: 1px solid black; */
+
+    }
+
+    .contact-btn{
+        display: inline-block;
+        background: #ff2978;
+        padding: 20px;
+        color: white;
+        text-transform: uppercase;
+        border-radius: 5px;
+       text-decoration: none;
+
+
+
+}
+
+.contact-btn:hover{
+    background: #180F4A;
+}
+
+    .headline p{
+        color: gray;
+        text-align: left;
+
+    }
+
+    .headline h2{
+        font-weight: 900;
+        font-size: 20px;
+        color: #180F4A;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    .img-headline{
+        margin-right: 10%;
+        flex: 40%;
+        /* border: 1px solid palevioletred; */
+        text-align: center;
+    }
+    
+
